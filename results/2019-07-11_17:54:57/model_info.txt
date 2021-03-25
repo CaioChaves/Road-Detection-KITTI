@@ -1,0 +1,38 @@
+Date and hour the test ended: 2019-07-11_17:54:57
+
+Patch size: 28x28
+
+Patchs randomly picked per image: 50
+
+Patchs per image coefficient: 0.01
+
+Fraction of data for train dataset: 0.8
+
+Batch size: 1
+
+Epochs: 100
+
+Optimizer State: SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.001
+    momentum: 0.5
+    nesterov: False
+    weight_decay: 0
+)
+
+Total elapsed time (training included): 58.0 minutes, 32.004727602005005 seconds, 
+
+Number of regions: 1
+
+Loss Function: BCELoss()
+
+Network architecture: MinimalisticCNN(
+  (conv1): Conv2d(3, 15, kernel_size=[4, 4], stride=(4, 4))
+  (conv2): Conv2d(15, 30, kernel_size=[3, 3], stride=(1, 1))
+  (conv3): Conv1d(30, 1, kernel_size=(1,), stride=(1,))
+  (pool): MaxPool2d(kernel_size=3, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (sigmoid): Sigmoid()
+)
+
+Number of trainable parameters in the model: 4846

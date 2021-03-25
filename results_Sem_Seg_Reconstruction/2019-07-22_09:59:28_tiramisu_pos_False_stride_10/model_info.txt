@@ -1,0 +1,13 @@
+Date and hour the test ended: 2019-07-22_09:59:28_tiramisu_pos_False_stride_10
+
+Patch size: 28x28
+
+Stride value: 10
+
+Total elapsed time: 5.0 minutes, 13.694384098052979 seconds, 
+
+Pre-trained network used: 2019-07-19_18:43:24
+
+IoU score: 0.6929451510333863
+
+Threshold: 0.5
