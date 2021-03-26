@@ -1,0 +1,13 @@
+Date and hour the test ended: 2021-03-26_11:27:35
+
+Patch size: 28x28
+
+Stride value: 10
+
+Total elapsed time: 1.1466238498687744 seconds, 
+
+Pre-trained network used: 2019-07-11_17:54:57/
+
+IoU score: 0.9053722840487546
+
+Threshold: 0.5

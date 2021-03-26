@@ -12,7 +12,6 @@ import numpy as np
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 from datetime import datetime
-import torch.utils.tensorboard as TensorBoard 
 from patchCNN_tools import WriteInfoFile2, SecondsToText, CalculateIoU, Convert2CenteredCoordinates
 from PIL import Image
 from progressbar import ProgressBar, Percentage, Bar, ETA, AdaptiveETA
