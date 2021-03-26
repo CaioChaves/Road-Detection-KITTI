@@ -1,7 +1,7 @@
 ## Road detection on KITTI Images
 * [Project overall description](#general-info)
 * [Setup](#setup)
-* [How to run a piece of code](#how-to-run-a-piece-of-code)
+* [How to perform road pixels detection](#how-to-perform-road-pixels-detection)
 
 ## General info
 
@@ -17,7 +17,7 @@ It can be divided in three main parts:
 The full report is also available at the repo, providing extra information about this work.
 
 ## Setup
-To install the required Python packages for this, we recommend creating a virtual environment:
+To install the required Python packages, we recommend creating a virtual environment:
 
 ```
 $ git clone https://github.com/CaioChaves/Road-Detection-KITTI.git
@@ -28,13 +28,15 @@ $ pip install -r requirements.txt
 $ # if the process is Killed by memory issues, run this instead -> 'pip install -r requirements.txt --no-cache-dir'
 ```
 
-## How to run a piece of code
+## How to perform road pixels detection
 
-To perform road detection on an image, the following command line can be executed:
+To perform road detection (aka ground semantic segmentation) on an image, the following command line can be executed:
 
 ```
 $ python generate_semantic_segmentation.py --arch mini --img-number 0 --stride 10 --epoch-number 100 --model-folder '2019-07-11_17:54:57/'
 ```
+
+If a CUDA capable GPU is not available, add the option '--no-cuda'.
 
 The output image will be saved in folder $ROOT$/results_Sem_Seg_Reconstruction/
 
