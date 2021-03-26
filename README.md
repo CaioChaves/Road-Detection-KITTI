@@ -24,7 +24,8 @@ $ git clone https://github.com/CaioChaves/Road-Detection-KITTI.git
 $ cd Road-Detection-KITTI
 $ virtualenv Road-Detection-KITTI
 $ source Road-Detection-KITTI/bin/activate
-$ pip install -r requirements.txt --no-cache-dir
+$ pip install -r requirements.txt 
+$ # if the process is Killed by memory issues, run this instead -> 'pip install -r requirements.txt --no-cache-dir'
 ```
 
 ## How to run a piece of code
@@ -34,6 +35,8 @@ To perform road detection on an image, the following command line can be execute
 ```
 $ python generate_semantic_segmentation.py --arch mini --img-number 0 --stride 10 --epoch-number 100 --model-folder '2019-07-11_17:54:57/'
 ```
+
+The output image will be saved in folder $ROOT$/results_Sem_Seg_Reconstruction/
 
 By applying this method to a sequence of images, we are able to detect road on a driving scene like this one:
 
