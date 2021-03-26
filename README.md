@@ -24,7 +24,7 @@ $ git clone https://github.com/CaioChaves/Road-Detection-KITTI.git
 $ cd Road-Detection-KITTI
 $ virtualenv Road-Detection-KITTI
 $ source Road-Detection-KITTI/bin/activate
-$ pip install -r requirements.txt
+$ pip install -r requirements.txt --no-cache-dir
 ```
 
 ## How to run a piece of code
