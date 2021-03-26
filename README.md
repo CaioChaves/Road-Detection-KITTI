@@ -1,7 +1,7 @@
 ## Road detection on KITTI Images
 * [Project overall description](#general-info)
 * [Setup](#setup)
-* [How to run a piece of code](#How to run a piece of code)
+* [How to run a piece of code](#how-to-run-a-piece-of-code)
 
 ## General info
 
@@ -35,4 +35,7 @@ To perform road detection on an image, the following command line can be execute
 $ python generate_semantic_segmentation.py --arch mini --img-number 0 --stride 10 --epoch-number 100 --model-folder '2019-07-11_17:54:57/'
 ```
 
+By applying this method to a sequence of images, we are able to detect road on a driving scene like this one:
+
+[![Watch the video](https://img.youtube.com/vi/L4z4fyKgkEs/maxresdefault.jpg)](https://youtu.be/L4z4fyKgkEs)
 
